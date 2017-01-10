@@ -1,0 +1,25 @@
+/* 基础选择器*/
+
+div {
+    width: 400px;
+    height: 400px;
+    background: url('images/test.jpg');
+    background-repeat: no-repeat;
+    background-color: green;
+    margin-bottom: 20px;
+}
+
+
+/** 左上角 */
+
+.position-left-top {
+    background-position: 0% 0%;
+}
+
+.position-center-center {
+    background-position: 50% 50%;
+}
+
+.position-right-bottom {
+    background-position: 100% 100%;
+}
