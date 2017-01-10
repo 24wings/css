@@ -182,8 +182,9 @@ table{
 ### 定位
 
 内容定位
+
 |属性  | 含义| 值|
-|--- | ---|
+|--- | ---|---|
 |overflow | 设置溢出效果,默认visible ,overflow ,scroll,auto 浏览器自动决定|
 |vertical-align  |  竖值排版,midlle,text-top,text-bottom等 [w3c案例](http://www.w3school.com.cn/cssref/pr_pos_vertical-align.asp)|
 |clip | 裁剪元素 | 上右下左|
