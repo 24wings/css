@@ -79,8 +79,8 @@ id选择器|100 | #red
 
 ### 背景
 
-属性名 |默认值 |含义
--|-|-
+|属性名 |默认值 |含义|
+|---|---|---|
 background-color|transparent|  背景颜色默认透明
 background-image| none |默认没有背景图片
 background-repeat | repeat | 默认背景x,y都重复，可选repeat-x,repeat-y,repeat,unset
