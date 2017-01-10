@@ -41,16 +41,18 @@ li strong{
 }
 
 ```
+[通配符属性选择器](http://www.w3school.com.cn/css/css_syntax_attribute_selector.asp)
 
 > 层叠样式表插入有三种,外联,内联,元素。整站开发用外联方便复用。
 单个文档需要特殊样式用内联。单个元素需要特殊样式直接在元素上使用。
 
+层叠的权级上: 元素样式>内联样式>外联样式
 ## css的权级问题
 
 参考文档 [CSS选择器的权重与优先规则](http://www.nowamagic.net/csszone/css_SeletorPriorityRules.php)
 
 选择器|权重 |案例
--|-|-
+|-|-|-|
 内联样式|1000 | ``<h1 style="color:red"></h1>``
 id选择器|100 | #red
 类,伪类,属性选择器 | 10| .red , .red:hover,[red]
