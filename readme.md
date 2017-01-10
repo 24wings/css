@@ -158,8 +158,8 @@ w3c推荐使用em字体尺寸
 
 属性|默认值|
 |---|---|
-list-style|none |样式值
-list-style-image| none | image(url) [设置列表图片](http://www.w3school.com.cn/tiy/t.asp?f=csse_list-style-image)
+|list-style|none |样式值|
+|list-style-image| none | image(url) [设置列表图片](http://www.w3school.com.cn/tiy/t.asp?f=csse_list-style-image)|
 
 
 ### 表格
