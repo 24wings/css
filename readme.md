@@ -59,9 +59,9 @@ id选择器|100 | #red
 元素,伪元素选择器 | 1  | p ,p:after,p:before
 
 案例
-选择器|权重计算|最终结果
+|选择器|权重计算|最终结果|
 |---|---|---|
-``#HEADER #LEFT UL LI .FIRST A``   | 1000+1000+1+1 |2002
+|``#HEADER #LEFT UL LI .FIRST A``   | 1000+1000+1+1 |2002|
 
 
 >总结:
@@ -90,42 +90,43 @@ background-attachment|scroll | 默认情况下随着文档滚动,设置fixed会�
 
 ### 文本 text
 
-属性名| 默认值 |含义
--|-|-|
-text-indent | 不同元素不同,一般css reset |文本缩进 ,例如 text-indent:5em
-text-align |  根据语言顺序  | 文本对齐
-word-spacing| normal 即0 |字,单词间隔 例如 3px,支持负数
-letter-spacing | normal 即 0 |字母间隔
-text-transform |  none | 字母大小写转换 uppercase，lowercase，none,capitalize
-text-decoration | 元素不同,例如a   |  underline ,overline,line-through,blink ,可以并行使用
-white-spacing | normal  |处理空白字符,默认值normal将回车等空白字符合并成一个空白字符,pre值不合并回车等空白字符,no-warp不允许换行 [w3c 小案例](http://www.w3school.com.cn/tiy/t.asp?f=csse_text_white-space_normal)
-direction | 国家语言 | ltr (left to right)从左到右,rtl (从右到左)
+|属性名| 默认值 |含义|
+|---|---|---|
+|text-indent | 不同元素不同,一般css reset |文本缩进 ,例如 text-indent:5em|
+|text-align |  根据语言顺序  | 文本对齐|
+|word-spacing| normal 即0 |字,单词间隔 例如 3px,支持负数|
+|letter-spacing | normal 即 0 |字母间隔|
+|text-transform |  none | 字母大小写转换 uppercase，lowercase，none,capitalize|
+|text-decoration | 元素不同,例如a   |  underline ,overline,line-through,blink ,可以并行使用|
+|white-spacing | normal  |处理空白字符,默认值normal将回车等空白字符合并成一个空白字符,pre值不合并回车等空白字符,no-warp不允许换行 [w3c 小案例](http://www.w3school.com.cn/tiy/t.asp?f=csse_text_white-space_normal)|
+|direction | 国家语言 | ltr (left to right)从左到右,rtl (从右到左)|
 
 
 #### [white-spacing](http://www.w3school.com.cn/tiy/t.asp?f=csse_text_white-space_pre-wrap)
 
-属性值|合并空白字符和回车 |自动换行
--|-|-|
-normal | 合并 | 自动换行
-nowrap | 合并 | 不换行
-pre | 不合并 | 不换行
-pre-wrap| 不合并 |自动换行
-``preline`` | 只合并空白字符，不合并回车 | 自动换行
+|属性值|合并空白字符和回车 |自动换行|
+|---|---|---|
+|normal | 合并 | 自动换行|
+|nowrap | 合并 | 不换行|
+|pre | 不合并 | 不换行|
+|pre-wrap| 不合并 |自动换行|
+|``preline`` | 只合并空白字符，不合并回车 | 自动换行|
 
 
 ### 字体  font
 
-属性| 默认值 |含义
-font-family | 用户代理设置的默认字体 |5种通用字体 Serif ,Sans-serif ,Monospace ,Cursive,Fantasy; 也可以指定次序查找
-font-style| normal | italic倾斜,和oblique外观一样
-font-weight| normal 即400 | 1-9级  100最细 normal是400 700等于blod 900最粗
-font-size | 用户代理默认值 | px,em的区别
+|属性| 默认值 |含义|
+|font-family | 用户代理设置的默认字体 |5种通用字体 Serif ,Sans-serif ,Monospace ,Cursive,Fantasy; 也可以指定次序查找|
+|font-style| normal | italic倾斜,和oblique外观一样|
+|font-weight| normal 即400 | 1-9级  100最细 normal是400 700等于blod 900最粗|
+|font-size | 用户代理默认值 | px,em的区别|
 
 font-size 的属性使用
 
-绝对值 |相对值
--|-
-文本固定大小 px | 相对于环境,元素的大小 em
+|绝对值 |相对值|
+|---|---|
+|文本固定大小 px | 相对于环境,元素的大小 em|
+
 w3c推荐使用em字体尺寸
 1em = 用户代理的默认的字体大小
 2em=2倍字体大小
@@ -133,11 +134,12 @@ w3c推荐使用em字体尺寸
 
 ### 链接 a
 
-伪类 |  含义
-a:link| 未访问的链接
-a:visited | 已经访问的链接
-a:hover | 划过链接
-a:active | 正在被点击的链接
+|伪类 |  含义|
+|---|---|---|
+|a:link| 未访问的链接|
+|a:visited | 已经访问的链接|
+|a:hover | 划过链接|
+|a:active | 正在被点击的链接|
 
 设置4个属性的时候  a:link >a:visited>a:hover>active;
 
@@ -152,9 +154,11 @@ list-style-image| none | image(url) [设置列表图片](http://www.w3school.com
 ### 表格
 
 折叠表单
+```css
 table{
     border-collapse:collapse;
 };
+```
 
 
 
