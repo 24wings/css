@@ -103,7 +103,7 @@ id选择器|100 | #red
 |direction | 国家语言 | ltr (left to right)从左到右,rtl (从右到左)|
 
 
-#### [white-spacing](http://www.w3school.com.cn/tiy/t.asp?f=csse_text_white-space_pre-wrap)
+#### [white-spacing](http://www.w3school.com.cn/css/css_text.asp)
 
 |属性值|合并空白字符和回车 |自动换行|
 |---|---|---|
