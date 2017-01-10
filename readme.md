@@ -52,7 +52,7 @@ li strong{
 参考文档 [CSS选择器的权重与优先规则](http://www.nowamagic.net/csszone/css_SeletorPriorityRules.php)
 
 选择器|权重 |案例
-|-|-|-|
+-|-|-
 内联样式|1000 | ``<h1 style="color:red"></h1>``
 id选择器|100 | #red
 类,伪类,属性选择器 | 10| .red , .red:hover,[red]
