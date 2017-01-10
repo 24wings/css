@@ -81,11 +81,11 @@ id选择器|100 | #red
 
 |属性名 |默认值 |含义|
 |---|---|---|
-background-color|transparent|  背景颜色默认透明
-background-image| none |默认没有背景图片
-background-repeat | repeat | 默认背景x,y都重复，可选repeat-x,repeat-y,repeat,unset
-background-position|  | 可选值top,bottom,left,right,center ,0% 0%是左上角,100% 100%是右下角,50% 50% 上居中， [小案例 demo1](demos/demo1/demo1.html)
-background-attachment|scroll | 默认情况下随着文档滚动,设置fixed会固定在背景上 [w3c 案例](http://www.w3school.com.cn/tiy/t.asp?f=csse_background-attachment)
+|background-color|transparent|  背景颜色默认透明
+|background-image| none |默认没有背景图片
+|background-repeat | repeat | 默认背景x,y都重复，可选repeat-x,repeat-y,repeat,unset|
+|background-position|  | 可选值top,bottom,left,right,center ,0% 0%是左上角,100% 100%是右下角,50% 50% 上居中， [小案例 demo1](demos/demo1/demo1.html)|
+|background-attachment|scroll | 默认情况下随着文档滚动,设置fixed会固定在背景上 [w3c 案例](http://www.w3school.com.cn/tiy/t.asp?f=csse_background-attachment)|
 
 
 ### 文本 text
@@ -146,7 +146,7 @@ w3c推荐使用em字体尺寸
 ### 列表
 
 属性|默认值|
--|-
+|---|---|
 list-style|none |样式值
 list-style-image| none | image(url) [设置列表图片](http://www.w3school.com.cn/tiy/t.asp?f=csse_list-style-image)
 
