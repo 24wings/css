@@ -143,7 +143,7 @@ w3c推荐使用em字体尺寸
 2em=2倍字体大小
 
 
-### 链接 a
+### [链接a伪类](http://www.w3school.com.cn/tiy/t.asp?f=css_link)
 
 |伪类 |  含义|
 |---|---|---|
