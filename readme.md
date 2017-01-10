@@ -59,9 +59,9 @@ id选择器|100 | #red
 元素,伪元素选择器 | 1  | p ,p:after,p:before
 
 案例
-|选择器|权重计算|最终结果|
+| 选择器 | 权重计算 | 最终结果 |
 |---|---|---|
-|``#HEADER #LEFT UL LI .FIRST A``   | 1000+1000+1+1 |2002|
+| ``#HEADER #LEFT UL LI .FIRST A``   | 1000+1000+1+1 |2002|
 
 
 >总结:
@@ -171,7 +171,8 @@ table{
 ### 定位
 
 内容定位
-
+|属性  | 含义|
+|--- | ---|
 overflow | 设置溢出效果,默认visible ,overflow ,scroll,auto 浏览器自动决定
 vertical-align  |  竖值排版,midlle,text-top,text-bottom等 [w3c案例](http://www.w3school.com.cn/cssref/pr_pos_vertical-align.asp)
 clip | 裁剪元素 | 上右下左
