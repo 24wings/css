@@ -1,0 +1,13 @@
+div {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background: blue;
+}
+
+.position {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    background: yellow;
+}

@@ -168,3 +168,27 @@ table{
 
 overflow | 设置溢出效果,默认visible ,overflow ,scroll,auto 浏览器自动决定
 vertical-align  |  竖值排版,midlle,text-top,text-bottom等 [w3c案例](http://www.w3school.com.cn/cssref/pr_pos_vertical-align.asp)
+clip | 裁剪元素 | 上右下左
+zindex |0 |[w3c 案例](http://www.w3school.com.cn/tiy/t.asp?f=csse_zindex2)
+
+
+
+* [relative属性案例](demos/demo5/demo5.html) 
+* [position绝对定位案例](demos/demo6/demo6.html)
+* [float 定位](http://www.w3school.com.cn/css/css_positioning_floating.asp)
+
+定位方式|是否脱离文档 |相对元素
+absolute | 脱离 | 父类元素
+relative | 不脱离 | 自身
+float | 脱离 | 父类元素,流动文档的特色
+
+# css高级
+
+* 对齐
+
+ margin居中
+> margin-left:auto;
+> margin-right:auto;
+
+position 实现左右对齐
+float: 实现左右对齐
