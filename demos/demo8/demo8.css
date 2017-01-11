@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.sidebar {
+    width: 130px;
+    float: left;
+}
+
+.sidebar .menu {
+    background: #DDDDDD url(http://www.divcss5.com/yanshi/2013032602/d0.gif) no-repeat 0 -5px;
+    text-align: center;
+    padding-left: 20px;
+    border: 1px solid lightgrey;
+}
+
+.sidebar .menu:hover {
+    border: none;
+}
+
+.sidebar .menu dt:hover {
+    background: #fff;
+    color: red;
+}
+
+.menu .subMenu {
+    width: 650px;
+    position: absolute;
+    left: 130px;
+    top: 0;
+    border: 1px solid lightgrey;
+}
+
+
+/* 子菜单左侧*/
+
+.subMenu .subMenuLeft {
+    width: 440px;
+    float: left;
+    border-bottom: 1px solid lightgray;
+}
+
+.subMenuLeft b {
+    float: left;
+    width: 75px;
+    color: orange;
+    font-size: 1.5em;
+}
+
+.subMenuLeft .subMenuLeftItem {
+    float: left;
+    width: 365px;
+    text-align: left;
+}
+
+.subMenuLeft .subMenuLeftItem li {
+    display: inline;
+    border-left: 1px solid lightgray;
+    padding: 0px 10px;
+    margin: 10px 0px;
+}
+
+.subMenu .subMenuRight {
+    border-left: 1px solid lightgray;
+    width: 200px;
+    float: left;
+}
+
+.subMenuLeft li {
+    float: left;
+}

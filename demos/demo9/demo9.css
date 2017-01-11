@@ -1,0 +1,14 @@
+.navigation li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: red;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navigation {
+    list-style: none;
+    text-align: center;
+    display: block;
+}
