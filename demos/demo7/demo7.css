@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.sidebar {
+    width: 130px;
+}
+
+.sidebar .title {
+    color: #fff;
+    text-align: center;
+    font-weight: 100;
+    background: darkred;
+    padding: 5px 10px;
+}
+
+.menu dt {
+    text-align: center;
+    color: darkred;
+}
+
+.sidebar .menu dt:hover {
+    background: darkred;
+    color: #fff;
+}
+
+
+/* 右侧菜单*/
+
+.menu dd {
+    display: none;
+    position: absolute;
+    left: 130px;
+    top: 34px;
+    width: 300px;
+    height: 400px;
+    border: 1px solid darkred;
+}
