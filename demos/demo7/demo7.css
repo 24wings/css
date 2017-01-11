@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
 }
 
 ul {
@@ -40,4 +41,78 @@ ul {
     width: 300px;
     height: 400px;
     border: 1px solid darkred;
+=======
+    list-style: none;
+    text-decoration: none;
+}
+
+.sidebar {
+    position: relative;
+    width: 122px;
+    float: left;
+}
+
+.sidebar .navList {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 123px;
+}
+
+.sidebar .navList dl {
+    width: 123px;
+    position: relative
+}
+
+.sidebar .navList dt {
+    background: #F4F4F4 url(http://www.divcss5.com/yanshi/2013032602/d0.gif) 0 0;
+    background-position: left;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+.sidebar .navList dt:hover {
+    color: orange;
+    background: #fff;
+}
+
+
+/*子菜单 539+1=540*/
+
+.sidebar .navList dd {
+    position: absolute;
+    top: -1px;
+    left: 122px;
+    width: 539px;
+    border: 1px gray solid;
+}
+
+.sidebar .navList dd .subMenuLeft {
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 300px;
+}
+
+.sidebar .navList dd .subMenuRight {
+    float: right;
+    width: 190px;
+}
+
+.subMenuLeft li {
+    float: left;
+    width: 370px;
+}
+
+.subMenuLeft b {
+    color: orange;
+    font-weight: normal;
+    padding-top: 2px;
+    border: none;
+    width: 75px;
+}
+
+.subMenuLeft div {
+    float: left;
+>>>>>>> 4ade1ea2db1c35ef124076c1fa77969810468a8e
 }
