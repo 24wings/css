@@ -8,9 +8,22 @@ ul {
 }
 
 #carousel {
-    display: inline-block;
+    display: inline-flex;
     width: 600px;
     overflow-x: hidden;
+    white-space: nowrap;
+}
+
+.item {
+    margin-left: 0px;
+    float: left;
+    top: 0;
+    left: 0;
+    width: 600px;
+}
+
+.item img {
+    width: 600px;
 }
 
 .navigation {

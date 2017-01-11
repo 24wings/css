@@ -4,18 +4,20 @@ $(function() {
     var carouselLength = $carouselItems.toArray().length; //轮播条幅数
 
     // 轮播图,默认隐藏除第一个轮播外所有轮播
-    $carouselItems.not(':first').hide();
+    // $carouselItems.not(':first').hide();
 
     function carousel() {
         return setInterval(function() {
             // 拿到所有轮播
             $carouselItems.hide(); // 先隐藏所有轮播
-            $($carouselItems.get(activeItem)).animate({ 'margin-left' })
-            $($carouselItems.get(++activeItem)).show();
+            $($carouselItems.get(activeItem)).show().css({ 'margin-left': '0' }).animate({ 'margin-left': '600px' }, 100).css({ 'margin-left': 0 }).hide();
+            $($carouselItems.get(++activeItem)).show().css({ 'margin-left': '-600px' }).animate({ 'margin-left': '0px', 'margin-right': 0 }, 100);
+
             activeItem = activeItem > carouselLength - 2 ? 0 : activeItem; // 轮播归0
 
-        }, 1000);
+        }, 2000);
     }
+
 
     //旋转轮播
     // var timer;
@@ -34,8 +36,5 @@ $(function() {
         $(this).removeClass('active').animate({ width: '10px', height: '10px' });
         // 鼠标离开,旋转木马开始启动
         timmer = carousel();
-
     });
-
-
 });
