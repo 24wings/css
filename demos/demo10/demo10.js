@@ -10,9 +10,10 @@ $(function() {
         return setInterval(function() {
             // 拿到所有轮播
             $carouselItems.hide(); // 先隐藏所有轮播
-            $($carouselItems.get(activeItem)).show().css({ 'margin-left': '0' }).animate({ 'margin-left': '600px' }, 100).css({ 'margin-left': 0 }).hide();
-            $($carouselItems.get(++activeItem)).show().css({ 'margin-left': '-600px' }).animate({ 'margin-left': '0px', 'margin-right': 0 }, 100);
-
+            $($carouselItems.get(activeItem)).show().css({ 'margin-left': '0' }).animate({ 'margin-left': '600px' }, 100, function() {
+                $(this).css({ 'margin-left': '0px' }).hide();
+            });
+            $($carouselItems.get(++activeItem)).show().css({ 'margin-left': '-600px' }).animate({ 'margin-left': '0px', 'margin-right': '0px' }, 100);
             activeItem = activeItem > carouselLength - 2 ? 0 : activeItem; // 轮播归0
 
         }, 2000);
@@ -28,12 +29,13 @@ $(function() {
         // 进入小点点,就不轮播了
         clearInterval(timmer);
         var index = $('.navigation li').index($(this)); // 找到激活的小点点;
-        $(this).addClass('active').animate({ width: '30px', height: '30px' }, 100);
+        $(this).addClass('active');
         // 只显示激活的小点点
         $carouselItems.hide();
         $($carouselItems.get(index)).show();
+        console.log(index);
     }).mouseleave(function() {
-        $(this).removeClass('active').animate({ width: '10px', height: '10px' });
+        $(this).removeClass('active');
         // 鼠标离开,旋转木马开始启动
         timmer = carousel();
     });

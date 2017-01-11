@@ -8,6 +8,7 @@ ul {
 }
 
 #carousel {
+    position: relative;
     display: inline-flex;
     width: 600px;
     overflow-x: hidden;
@@ -27,15 +28,24 @@ ul {
 }
 
 .navigation {
+    position: absolute;
+    left: calc(50% - 92px);
+    left: -webkit-calc(50%-92px);
+    left: -moz-calc(50%-92px);
+    border-radius: 6px;
+    bottom: 20px;
     display: block;
     text-align: center;
+    background: #DDDDDD;
+    opacity: 0.4;
 }
 
 .navigation li {
     display: inline-block;
     width: 10px;
     height: 10px;
-    margin-right: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
     background: red;
     border-radius: 50%;
 }

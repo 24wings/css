@@ -14,7 +14,8 @@ $(function() {
             $($carouselItems.get(activeNum)).show();
 
         }, duration);
-    };
+    }
+
     timmer = carousel();
 
 
