@@ -7,6 +7,12 @@ ul {
     list-style: none;
 }
 
+#carousel {
+    display: inline-block;
+    width: 600px;
+    overflow-x: hidden;
+}
+
 .navigation {
     display: block;
     text-align: center;

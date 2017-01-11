@@ -10,12 +10,15 @@ $(function() {
         return setInterval(function() {
             // 拿到所有轮播
             $carouselItems.hide(); // 先隐藏所有轮播
+            $($carouselItems.get(activeItem)).animate({ 'margin-left' })
             $($carouselItems.get(++activeItem)).show();
             activeItem = activeItem > carouselLength - 2 ? 0 : activeItem; // 轮播归0
+
         }, 1000);
     }
 
     //旋转轮播
+    // var timer;
     var timmer = carousel();
 
 
