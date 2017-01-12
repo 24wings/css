@@ -1,0 +1,27 @@
+.waterfall {
+    width: 900px;
+    ;
+}
+
+.waterfall .box {
+    float: left;
+    padding: 10px;
+    width: 225px;
+    text-align: center;
+}
+
+.box img {
+    border-radius: 7px;
+    display: block;
+}
+
+.waterfall .bigDiv {
+    vertical-align: top;
+    display: inline-block;
+    width: 200px;
+    padding-left: 20px;
+}
+
+.waterfall .box img:hover {
+    box-shadow: 0px 2px 3px 1px #999;
+}
