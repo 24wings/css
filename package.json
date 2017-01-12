@@ -1,25 +1,24 @@
 {
-
-    "name": "css",
-    "version": "1.0.0",
-    "description": "[w3c css参考文档](http://www.w3school.com.cn/css/index.asp)",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/24wings/css.git"
-    },
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/24wings/css/issues"
-    },
-    "homepage": "https://github.com/24wings/css#readme",
-    "dependencies": {
-        "@types/jquery": "^2.0.39",
-        "jquery": "^3.1.1"
-
-    }
+  "name": "css",
+  "version": "1.0.0",
+  "description": "[w3c css参考文档](http://www.w3school.com.cn/css/index.asp)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/24wings/css.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/24wings/css/issues"
+  },
+  "homepage": "https://github.com/24wings/css#readme",
+  "dependencies": {
+    "@types/jquery": "^2.0.39",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.1.1"
+  }
 }
