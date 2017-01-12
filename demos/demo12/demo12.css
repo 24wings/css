@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.accordian {
+    /*850=200*4+2*20 +5*2  */
+    width: 850px;
+    overflow: hidden;
+}
+
+.accordian li {}
