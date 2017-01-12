@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+#carousel {
+    width: 600px;
+    display: flex;
+    overflow: hidden;
+}
+
+#carousel .item {
+    float: left;
+    width: 600px;
+}
+
+#carousel .item img {
+    width: 600px;
+}
