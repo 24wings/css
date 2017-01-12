@@ -6,6 +6,8 @@ $(function() {
     function carousel() {
         return setInterval(function() {
             // 超过轮播数量,自动重置
+            $('.navigation li').removeClass('active');
+            $($('.navigation li').get(activeItem + 1)).addClass('active');
             if (activeItem === $carouselItems.length - 1) {
                 $carouselItems.hide().first().show();
                 $carouselItems.last().show();
@@ -33,7 +35,14 @@ $(function() {
 
         $($carouselItems.get(0)).animate({ marginLeft: '-' + activeItem * 600 + 'px' }, 500);
     }).mouseleave(function() {
-
+        timmer = carousel();
+        $(this).removeClass('active');
+    });
+    /**鼠标移入轮播 */
+    $('#carousel .item').mouseenter(function() {
+        clearInterval(timmer);
+    }).mouseleave(function() {
+        timmer = carousel();
     });
 
 
