@@ -9,11 +9,10 @@ $(function() {
     function carousel() {
         return setInterval(function() {
             // 拿到所有轮播
-            $carouselItems.hide(); // 先隐藏所有轮播
-            $($carouselItems.get(activeItem)).show().css({ 'margin-left': '0' }).animate({ 'margin-left': '600px' }, 100, function() {
-                $(this).css({ 'margin-left': '0px' }).hide();
-            });
-            $($carouselItems.get(++activeItem)).show().css({ 'margin-left': '-600px' }).animate({ 'margin-left': '0px', 'margin-right': '0px' }, 100);
+            // $carouselItems.hide(); // 先隐藏所有轮播
+            activeItem++;
+            $($carouselItems.get(0)).animate({ marginLeft: '-' + activeItem * 600 + 'px' }, 500);
+
             activeItem = activeItem > carouselLength - 2 ? 0 : activeItem; // 轮播归0
 
         }, 2000);
