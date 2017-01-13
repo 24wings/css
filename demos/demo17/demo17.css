@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.waterfull {
+    position: relative;
+    width: 800px;
+}
+
+.waterfull .bigDiv {
+    width: 200px;
+    float: left;
+}
+
+.waterfull .box {
+    width: 200px;
+    float: left;
+    display: inline-block;
+}

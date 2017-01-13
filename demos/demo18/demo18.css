@@ -1,0 +1,44 @@
+.fly {
+    width: 800px;
+    position: relative;
+    animation: a 1000s;
+    transform-origin: 50% 50%;
+}
+
+.fly img:nth-child(1) {}
+
+img:nth-child(2) {
+    position: absolute;
+    left: 100px;
+    top: 400px;
+}
+
+img:nth-child(3) {
+    position: absolute;
+    left: 600px;
+    top: 400px;
+}
+
+img:nth-child(4) {
+    position: absolute;
+    left: calc(50% - 65px);
+    top: 0;
+}
+
+@keyframes a {
+    form {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(36000deg)
+    }
+}
+
+@keyframes b {
+    form {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(-36000deg)
+    }
+}
