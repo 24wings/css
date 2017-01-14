@@ -8,7 +8,7 @@ $(function() {
         $.ajax('data.json', {
             method: 'GET',
             success: function(rtn) {
-                rtn.forEach(function() {
+                rtn.forEach(function(img) {
                     loadImage(img);
                 });
             }
